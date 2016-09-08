@@ -60,7 +60,9 @@ def front_x(words):
 # Hint: use a custom key= function to extract the last element form each tuple.
 def sort_last(tuples):
     # +++your code here+++
-    return
+    #for t in tuples:
+    tuples.sort(key=lambda tupla: tupla[-1])
+    return tuples
 
 
 # Simple provided test() function used in main() to print
